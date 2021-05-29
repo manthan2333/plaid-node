@@ -1,4 +1,5 @@
 {
+  "start": "./lib/plaid.js,
   "name": "plaid",
   "version": "8.5.1",
   "description": "A node.js client for the Plaid API",
