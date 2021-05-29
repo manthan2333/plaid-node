@@ -1,0 +1,15 @@
+---
+application:
+  name: "plaid-node"
+  project: "cozyox69"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "cozyox69"
+  version: "12"
+routers:
+- name: "main-plaid-node"
+  routes:
+  - application_name: "plaid-node"
+    paths:
+    - "/*"
